@@ -47,17 +47,17 @@ Ensure you have the following tools installed before running the app:
 3. Replace the placeholder in src/environments/environment.ts with your Firebase config.
 
     ```bash
-export const environment = {
-  production: false,
-  firebaseConfig: {
-    apiKey: 'YOUR_API_KEY',
-    authDomain: 'YOUR_AUTH_DOMAIN',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    appId: 'YOUR_APP_ID',
-  },
-};
+    export const environment = {
+     production: false,
+     firebaseConfig: {
+       apiKey: 'YOUR_API_KEY',
+       authDomain: 'YOUR_AUTH_DOMAIN',
+       projectId: 'YOUR_PROJECT_ID',
+       storageBucket: 'YOUR_STORAGE_BUCKET',
+       messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+       appId: 'YOUR_APP_ID',
+     },
+   };
 
 4. Update src/environments/environment.prod.ts for production.
     ```bash
