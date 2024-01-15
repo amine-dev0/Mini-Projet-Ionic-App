@@ -33,7 +33,7 @@ Ensure you have the following tools installed before running the app:
     ```bash
     cd note-app
 
-#3. Install dependencies:
+3. Install dependencies:
     
     ```bash
     npm install
